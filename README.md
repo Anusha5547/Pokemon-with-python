@@ -3,9 +3,9 @@ This is a basic datascience project.I used basic python ,python datascience tool
 
 ## NOTE:
 I have uploaded 1 dataset csv file and 3 text files
-1.BACIC THINGS TO KNOW[1ST TEXT FILE]
-2.USING PYTHON DATA SCIENCE TOOLBOX[2ND TEXT FILE]
-3.CLEANING DATA AND MANIPULATING DATA FRAMES WITH PANDAS[3RD TEXT FILE]
+###### 1.BACIC THINGS TO KNOW
+###### 2.USING PYTHON DATA SCIENCE TOOLBOX
+###### 3.CLEANING DATA AND MANIPULATING DATA FRAMES WITH PANDAS
 
 ________________________________________________________________________________________________________________________________________
 
