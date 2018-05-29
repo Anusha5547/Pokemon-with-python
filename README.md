@@ -1,7 +1,7 @@
 # Pokemon-with-python
 This is a basic datascience project.I used basic python ,python datascience toolkit and also performed data cleaning with pandas foundation.
 
-# NOTE:
+NOTE:
 I have uploaded 1 dataset csv file and 3 text files
 1.BACIC THINGS TO KNOW[1ST TEXT FILE]
 2.USING PYTHON DATA SCIENCE TOOLBOX[2ND TEXT FILE]
@@ -9,8 +9,8 @@ I have uploaded 1 dataset csv file and 3 text files
 
 ________________________________________________________________________________________________________________________________________
 
-# 1.BASIC THINGS TO KNOW:
-# MATPLOTLIB
+ 1.BASIC THINGS TO KNOW:
+ MATPLOTLIB
 Matplot is a python library that help us to plot data. The easiest and basic plots are line, scatter and histogram plots.
 
 Line plot is better when x axis is time.
@@ -18,7 +18,7 @@ Scatter is better when there is correlation between two variables
 Histogram is better when we need to see distribution of numerical data.
 Customization: Colors,labels,thickness of line, title, opacity, grid, figsize, ticks of axis and linestyle.
 
-# DICTIONARY
+ DICTIONARY
 Why we need dictionary?
 
 It has 'key' and 'value'
@@ -28,7 +28,7 @@ dictionary = {'spain' : 'madrid'}
 Key is spain.
 Values is madrid. 
 
-# PANDAS
+ PANDAS
 Everyone must be thinking..What we need to know about pandas?
 
 CSV: comma - separated values
@@ -36,7 +36,7 @@ we also need to learn about logic, control flow and filtering.
 Comparison operator: ==, <, >, <= 
 Boolean operators: and, or ,not 
 
-# In my first text file.I have showed:
+In my first text file.I have showed:
 how to import csv file
 plotting line,scatter and histogram
 basic dictionary features
@@ -45,8 +45,8 @@ While and for loops
 
 ________________________________________________________________________________________________________________________________________
 
-# 2.USING PYTHON DATA SCIENCE TOOLBOX
-# USER DEFINED FUNCTION
+2.USING PYTHON DATA SCIENCE TOOLBOX
+USER DEFINED FUNCTION
 What we need to know about functions:
 
 docstrings: documentation for functions. Example: 
@@ -55,7 +55,7 @@ for f():
 tuble: sequence of immutable python objects. 
 cant modify values 
 
-# SCOPE
+SCOPE
 Now the question is what we need to know about scope:
 
 global: defined main body in script
@@ -64,11 +64,11 @@ built in scope: names in predefined built in scope module such as print, len
 tuble uses paranthesis like tuble = (1,2,3) 
 unpack tuble into several variables like a,b,c = tuble
 
-# NESTED FUNCTION
+NESTED FUNCTION
 function inside function.
 There is a LEGB rule that is search local scope, enclosing function, global and built in scopes, respectively.
 
-# DEFAULT and FLEXIBLE ARGUMENTS
+DEFAULT and FLEXIBLE ARGUMENTS
 Default argument example: 
 def f(a, b=1):
   """ b = 1 is default argument"""
@@ -79,21 +79,21 @@ def f(*args):
 def f(** kwargs)
  """ **kwargs is a dictionary"""
  
-# LAMBDA FUNCTION
+LAMBDA FUNCTION
 Faster way of writing function
 
-# ANONYMOUS FUNCTİON
+ANONYMOUS FUNCTİON
 Like lambda function but it can take more than one arguments.
 
 map(func,seq) : applies a function to all the items in a list
 
-# ITERATORS
+ITERATORS
 iterable is an object that can return an iterator
 iterable: an object with an associated iter() method 
 example: list, strings and dictionaries
 iterator: produces next value with next() method
 
-# LIST COMPREHENSİON
+LIST COMPREHENSİON
 One of the most important topic of this kernel 
 We use list comprehension for data analysis often. 
 list comprehension: collapse for loops for building lists into a single line 
@@ -106,7 +106,7 @@ for i in num1: for loop syntax
 i: iterator 
 num1: iterable object
 
-# In this second text file.I have worked on following things:
+In this second text file.I have worked on following things:
 User defined function
 Scope
 Nested function
@@ -118,8 +118,8 @@ List comprehension
 
 ________________________________________________________________________________________________________________________________________
 
-# 3.CLEANING DATA AND MANIPULATING DATA FRAMES WITH PANDAS
-# CLEANING DATA
+3.CLEANING DATA AND MANIPULATING DATA FRAMES WITH PANDAS
+CLEANING DATA:
 DIAGNOSE DATA for CLEANING
 We need to diagnose and clean data before exploring. 
 Unclean data:
@@ -128,7 +128,7 @@ Column name inconsistency like upper-lower case letter or space between words
 missing data
 different language
 
-# EXPLOTARY DATA ANALYSIS
+EXPLOTARY DATA ANALYSIS:
 value_counts(): Frequency counts 
 outliers: the value that is considerably higher or lower from rest of the data
 
@@ -153,19 +153,19 @@ The lower quartile is the median in between the smallest number and the median i
 
 The upper quartile, you find the median between the median and the largest number i.e. between 11 and 17, which will be 14 according to the question above.
 
-# VISUAL EXPLORATORY DATA ANALYSIS
+VISUAL EXPLORATORY DATA ANALYSIS:
 Box plots: visualize basic statistics like outliers, min/max or quantiles
 
-# TIDY DATA
+TIDY DATA:
 We tidy data with melt().
 
-# PIVOTING DATA
+PIVOTING DATA:
 Reverse of melting.
 
-# CONCATENATING DATA
+CONCATENATING DATA:
 We can concatenate two dataframe.
 
-# DATA TYPES
+DATA TYPES
 There are 5 basic data types: object(string),booleab, integer, float and categorical. 
 We can make conversion data types like from str to categorical or from int to float 
 Why is category important:
@@ -173,7 +173,7 @@ Why is category important:
 make dataframe smaller in memory
 can be utilized for anlaysis especially for sklearn.
 
-# MISSING DATA and TESTING WITH ASSERT
+MISSING DATA and TESTING WITH ASSERT
 If we encounter with missing data, what we can do:
 
 leave as is
@@ -182,8 +182,8 @@ fill missing value with fillna()
 fill missing values with test statistics like mean 
 Assert statement: check that you can turn on or turn off when you are done with your testing of the program.
 
-# PANDAS FOUNDATION
-# REVİEW of PANDAS
+PANDAS FOUNDATION
+REVİEW of PANDAS
 Now going little deeper in pandas.
 
 single column = series
@@ -196,7 +196,7 @@ zip() method: This function returns a list of tuples, where the i-th tuple conta
 Adding new column
 Broadcasting: Create new column and assign a value to entire column
 
-# VISUAL EXPLORATORY DATA ANALYSIS
+VISUAL EXPLORATORY DATA ANALYSIS
 Plot
 Subplot
 Histogram:
@@ -205,7 +205,7 @@ range(tuble): min and max values of bins
 normed(boolean): normalize or not
 cumulative(boolean): compute cumulative distribution
 
-# STATISTICAL EXPLORATORY DATA ANALYSIS
+STATISTICAL EXPLORATORY DATA ANALYSIS
 How it actually works is:
 count: number of entries
 mean: average of entries
@@ -216,57 +216,57 @@ min: minimum entry
 75%: third quantile
 max: maximum entry
 
-# INDEXING PANDAS TIME SERIES
+INDEXING PANDAS TIME SERIES
 datetime = object
 parse_dates(boolean): Transform date to ISO 8601 (yyyy-mm-dd hh:mm:ss ) format
 
-# RESAMPLING PANDAS TIME SERIES
+RESAMPLING PANDAS TIME SERIES
 Resampling: statistical method over different time intervals
 Needs string to specify frequency like "M" = month or "A" = year
 Downsampling: reduce date time rows to slower frequency like from daily to weekly
 Upsampling: increase date time rows to faster frequency like from daily to hourly
 Interpolate: Interpolate values according to different methods like ‘linear’, ‘time’ or index’
 
-# MANIPULATING DATA FRAMES WITH PANDAS
-# INDEXING DATA FRAMES
+MANIPULATING DATA FRAMES WITH PANDAS
+INDEXING DATA FRAMES
 Indexing using square brackets
 Using column attribute and row label
 Using loc accessor
 Selecting only some columns
 
-# SLICING DATA FRAME
+SLICING DATA FRAME
 Difference between selecting columns
 Series and data frames
 Slicing and indexing series
 Reverse slicing
 From something to end
 
-# FILTERING DATA FRAMES
+FILTERING DATA FRAMES
 Creating boolean series Combining filters Filtering column based others
 
-# TRANSFORMING DATA
+TRANSFORMING DATA
 Plain python functions
 Lambda function: to apply arbitrary python function to every element
 Defining column using other columns
 
-# INDEX OBJECTS AND LABELED DATA
+INDEX OBJECTS AND LABELED DATA
 index: sequence of label
 
-# HIERARCHICAL INDEXING
+HIERARCHICAL INDEXING
 Setting indexing
 
-# PIVOTING DATA FRAMES
+PIVOTING DATA FRAMES
 pivoting: reshape tool
 
-# STACKING and UNSTACKING DATAFRAME
+STACKING and UNSTACKING DATAFRAME
 deal with multi label indexes
 level: position of unstacked index
 swaplevel: change inner and outer level index position
 
-# MELTING DATA FRAMES
+MELTING DATA FRAMES
 Reverse of pivoting
 
-# In this third text file.I have worked on following things:
+In this third text file.I have worked on following things:
 Cleaning Data 
 Manipulating Data Frames with Pandas
 
